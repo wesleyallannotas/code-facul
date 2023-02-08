@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Wesley Silva" />
+    <meta name="description" content="Formulário de contado da empresa XPTO" />
+    <title>XPTO: Formulário de Contato</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo da empresa XPTO" />
+      <h1>Empresa XPTO</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="contato">Formulário de Contato</h1>
+      <form action="#" method="post">
+        <fieldset>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" />
+        </fieldset>
+        <fieldset>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" />
+        </fieldset>
+        <fieldset>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+        </fieldset>
+        <br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+    <footer>
+      <p>Copyright © 2021</p>
+    </footer>
+  </body>
+</html>
