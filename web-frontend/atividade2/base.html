@@ -2,6 +2,7 @@
 
 <html lang="pt-br">
   <head>
+    <title>Formulário de Contato</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -10,30 +11,30 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <title>Formulário de Contato</title>
   </head>
 
   <body>
     <div class="container mx-auto bg-light mt-1 w-90">
       <header class="row">
-        <div id="barra_acessibilidade" class="col-12 invisible">
+        <!-- oculte a barra de acessibilidade -->
+        <div id="barra_acessibilidade" class="col-12">
           <ul id="atalhos">
-            <li>
-              <a href="#menu" accesskey="1">Ir para menu [1]</a>
-            </li>
+            <li><a href="#menu" accesskey="1">Ir para menu [1]</a></li>
             <li>
               <a href="#formulario" accesskey="2">Ir para formulário [2]</a>
             </li>
           </ul>
         </div>
-        <div class="col-sm-3">
+
+        <!-- faça com que as duas divs a seguir sejam exibidas lado a lado quando o viewport for maior ou igual a 576px sendo que a primeira deve ocupar 3/12 e a segunda 9/12 consulte: https://getbootstrap.com.br/docs/4.1/layout/grid/ -->
+        <div class="col-12">
           <img
             src="images/logo.png"
             alt="Logotipo da empresa com dois triângulos sobrepostos."
           />
         </div>
 
-        <div class="col-sm-9">
+        <div class="col-12">
           <h1>Empresa XPTO</h1>
         </div>
       </header>
