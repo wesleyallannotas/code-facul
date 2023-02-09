@@ -1,0 +1,5 @@
+@media (max-width: 576px) {
+  fieldset label:first-child {
+    padding: 5px 0;
+  }
+}
