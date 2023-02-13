@@ -13,7 +13,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <!-- <link rel="stylesheet" type="text/css" href="./styles.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Formulário de Contato</title>
   </head>
 
@@ -85,7 +85,8 @@
                 id="nome"
                 placeholder="Digite seu nome"
               />
-              <div class="invalid-feedback col-12">Campo nome obrigatório.</div>
+              <div class="col-sm-2"></div>
+              <div class="invalid-feedback col-sm-12">Campo nome obrigatório.</div>
             </fieldset>
             <fieldset class="form-group row">
               <label for="email" class="col-sm-2 col-form-label col-form-label-sm">
@@ -97,22 +98,26 @@
                 id="email"
                 placeholder="Digite seu email"
               />
-              <div class="invalid-feedback col-12">Campo e-mail obrigatório.</div>
+              <div class="col-sm-2"></div>
+              <div class="invalid-feedback col-sm-s12">Campo e-mail obrigatório.</div>
             </fieldset>
             <fieldset class="form-group row">
               <label for="mensagem" class="col-sm-2 col-form-label col-form-label-sm">
                 Mensagem*
               </label>
               <textarea class="col-sm-10 form-control form-control-sm" id="mensagem"></textarea>
-              <div class="invalid-feedback col-12">Campo mensagem obrigatório.</div>
+              <div class="col-sm-2"></div>
+              <div class="invalid-feedback col-sm-10">Campo mensagem obrigatório.</div>
             </fieldset>
-            <button id="button" type="submit" class="btn btn-primary my-1 row">Enviar</button>
-            <div class="text-muted">* Campos obrigatórios.</div>
+            <div class="container-button-message">
+              <button id="button" type="submit" class="btn btn-primary">Enviar</button>
+              <div class="text-muted">* Campos obrigatórios.</div>
+            </div>
           </form>
         </article>
       </section>
 
-      <footer class="row">
+      <footer class="row my-2">
         <div class="col-12">
           <p>Copyright © 2021</p>
         </div>
